@@ -20,6 +20,9 @@ import { Head } from '@inertiajs/vue3';
                 <div
                     class="overflow-hidden bg-white shadow-sm sm:rounded-lg dark:bg-gray-800"
                 >
+                    <h2 class="p-6 text-gray-900 dark:text-gray-100">
+                        {{ $page.props.auth.user.name }}
+                    </h2>
                     <div class="p-6 text-gray-900 dark:text-gray-100">
                         You're logged in!
                     </div>
